@@ -1,8 +1,8 @@
-\# SQL Task 8 – Stored Procedures \& Functions
+# SQL Task 8 – Stored Procedures \& Functions
 
 
 
-This task focuses on creating and executing \*\*stored procedures\*\* and \*\*functions\*\* in MySQL to perform various operations on a sample database.
+This task focuses on creating and executing **stored procedures** and **functions** in MySQL to perform various operations on a sample database.
 
 
 
@@ -10,9 +10,9 @@ This task focuses on creating and executing \*\*stored procedures\*\* and \*\*fu
 
 
 
-\## Files Included
+## Files Included
 
-\- \*\*task8.sql\*\* – SQL script containing:
+- **task8.sql** – SQL script containing:
 
 &nbsp; - Creation of stored procedures
 
@@ -20,7 +20,7 @@ This task focuses on creating and executing \*\*stored procedures\*\* and \*\*fu
 
 &nbsp; - Execution of procedures and functions
 
-\- \*\*Screenshots.docx\*\* – Contains screenshots of the executed queries and their outputs
+- **Screenshots.docx** – Contains screenshots of the executed queries and their outputs
 
 
 
@@ -28,27 +28,27 @@ This task focuses on creating and executing \*\*stored procedures\*\* and \*\*fu
 
 
 
-\##  Operations Performed
+##  Operations Performed
 
 
 
-\### \*\*Stored Procedures\*\*
+### **Stored Procedures**
 
-1\. \*\*ShowCustomerName\*\* – Displays customer name by `CustomerID`
+1. **ShowCustomerName** – Displays customer name by `CustomerID`
 
-2. \*\*CountTotalCustomers\*\* – Returns the total number of customers
+2. **CountTotalCustomers** – Returns the total number of customers
 
-3\. \*\*GetOrdersByCustomer\*\* – Shows all orders for a given customer
-
-
+3. **GetOrdersByCustomer** – Shows all orders for a given customer
 
 
 
-\### \*\*Functions\*\*
 
-1\. \*\*CalculateSquare\*\* – Returns the square of a given number
 
-2\. \*\*GetTotalOrders\*\* – Returns the total number of orders for a given customer
+### **Functions**
+
+1. **CalculateSquare** – Returns the square of a given number
+
+2. **GetTotalOrders** – Returns the total number of orders for a given customer
 
 
 
@@ -58,15 +58,15 @@ This task focuses on creating and executing \*\*stored procedures\*\* and \*\*fu
 
 
 
-\## How to Run
+## How to Run
 
-1\. Open \*\*MySQL Workbench\*\*
+1. Open **MySQL Workbench**
 
-2\. Connect to your MySQL server
+2. Connect to your MySQL server
 
-3\. Run the SQL script:
+3. Run the SQL script:
 
-4\. Execute procedures/functions using:
+4. Execute procedures/functions using:
 
 &nbsp;  CALL ProcedureName(parameters);
 
@@ -78,7 +78,7 @@ This task focuses on creating and executing \*\*stored procedures\*\* and \*\*fu
 
 
 
-\## Notes
+## Notes
 
 * DELIMITER is used to change the command terminator while defining procedures/functions to avoid conflicts with semicolons inside the code.
 * DETERMINISTIC is specified for functions that always return the same result for the same input.
@@ -87,15 +87,15 @@ This task focuses on creating and executing \*\*stored procedures\*\* and \*\*fu
 
 ---
 
-&nbsp;## Author
-
-&nbsp;
-
-\*\*Sumith Poojary\*\*
 
 
+## Author
 
-GitHub: \[sumith999](https://github.com/sumith999)
+**Sumith Poojary**
+
+
+
+GitHub: [sumith999](https://github.com/sumith999)
 
 
 
